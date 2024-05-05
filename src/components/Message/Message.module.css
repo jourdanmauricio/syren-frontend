@@ -1,0 +1,32 @@
+.message {
+  position: relative;
+  background-color: #ccfbf1;
+  color: var(--blue-dark);
+  padding: 10px;
+  height: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.1rem;
+  font-weight: 600;
+  background-color: var(--secondary);
+  color: var(--blue-dark);
+}
+
+.close {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.close:hover {
+  background: #f187c3;
+}
+
+.close img {
+  padding: 4px;
+}

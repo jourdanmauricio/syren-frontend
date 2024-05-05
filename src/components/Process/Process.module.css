@@ -1,0 +1,42 @@
+.process {
+  background-color: #f5f3ec;
+  padding: 3rem 0;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+}
+
+.process__card {
+  max-width: 250px;
+  height: 275px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0.25rem 0.25rem 0.75rem rgb(0 0 0 / 0.1);
+  padding: 1rem;
+}
+
+.card__header {
+  display: flex;
+  gap: 1rem;
+  text-align: center;
+  justify-content: center;
+}
+
+.card__content {
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.agendar__btn {
+  margin: 1rem auto;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+}

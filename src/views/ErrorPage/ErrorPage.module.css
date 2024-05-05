@@ -1,0 +1,41 @@
+.background {
+  position: absolute;
+  top: -85px;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -10;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  max-width: 800px;
+  min-width: 300px;
+  height: calc(100vh - 85px - 195px);
+  background-color: #fff;
+  margin: 0 auto;
+}
+
+.background img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.title {
+  font-size: 3em;
+}
+
+.paragraph {
+  padding: 1rem 0;
+  font-size: 1.5em;
+}
+
+.btn__home {
+  margin-top: 2em;
+}

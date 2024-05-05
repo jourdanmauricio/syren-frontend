@@ -1,0 +1,46 @@
+.image__container {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -10;
+}
+
+.image {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: auto;
+  height: 100%;
+  object-fit: contain;
+  object-position: center bottom;
+  animation: changeBackground 12s infinite;
+  animation-fill-mode: both;
+  opacity: 0;
+}
+
+.image:nth-of-type(1) {
+  animation-delay: 0s;
+}
+.image:nth-of-type(2) {
+  animation-delay: 4s;
+}
+.image:nth-of-type(3) {
+  animation-delay: 8s;
+}
+
+@keyframes changeBackground {
+  0% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 0.8;
+  }
+  28% {
+    opacity: 0.8;
+  }
+  33% {
+    opacity: 0;
+  }
+}

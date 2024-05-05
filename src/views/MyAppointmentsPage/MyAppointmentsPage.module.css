@@ -1,0 +1,56 @@
+.header {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  background: url('https://res.cloudinary.com/dn7npxeof/image/upload/v1710620458/Henry/PM3-laser-appointments/waiting-room_jto4zx.webp')
+    no-repeat center center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  color: white;
+}
+
+.capa {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.text {
+  border: transparent 10px solid;
+  box-shadow: inset 0 0 0 1px #aaa;
+  padding: 1rem 4rem;
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(3px);
+  text-align: center;
+}
+
+.text > * {
+  padding: 0.5rem 0;
+}
+
+.text > p {
+  font-size: 1.2em;
+}
+
+.new__appointment {
+  margin: 2rem auto;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1rem;
+  padding: 0 20px;
+}
+
+@media (max-width: 768px) {
+  .contenedor {
+    flex-direction: column;
+  }
+}
