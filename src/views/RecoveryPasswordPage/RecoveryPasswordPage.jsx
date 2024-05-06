@@ -121,10 +121,12 @@ const RecoveryPasswordPage = () => {
 
             <div className="form-links">
               <p>
-                <Link href="/register">Registrarme</Link>
+                <Link href="/syren-frontend/register">Registrarme</Link>
               </p>
               <p>
-                <Link to="/forgot-password">Recuperar contraseña </Link>
+                <Link to="/syren-frontend/forgot-password">
+                  Recuperar contraseña{' '}
+                </Link>
               </p>
             </div>
 
@@ -154,7 +156,7 @@ const RecoveryPasswordPage = () => {
           className="btn"
           style={{ display: 'block', marginLeft: 'auto' }}
         >
-          <Link to="/login">Iniciar sesión</Link>
+          <Link to="/syren-frontend/login">Iniciar sesión</Link>
         </button>
       </Modal>
     </>

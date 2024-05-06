@@ -105,10 +105,12 @@ const Login = () => {
             </div>
             <div className="form-links">
               <p>
-                <Link to="/register">Registrarme</Link>
+                <Link to="/syren-frontend/register">Registrarme</Link>
               </p>
               <p>
-                <Link to="/forgot-password">Recuperar contraseña </Link>
+                <Link to="/syren-frontend/forgot-password">
+                  Recuperar contraseña{' '}
+                </Link>
               </p>
             </div>
 
