@@ -57,7 +57,7 @@ const MyAppointments = () => {
           ¡Reserva tu cita hoy mismo y experimenta los mejores resultados!
         </h3>
         <button className={`btn ${styles.new__appointment}`}>
-          <Link to="/new-appointment">Agendar nueva cita</Link>
+          <Link to="/syren-frontend/new-appointment">Agendar nueva cita</Link>
         </button>
         {message && (
           <Message
