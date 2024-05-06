@@ -1,4 +1,4 @@
-import { BrowserRouter } from 'react-router-dom';
+import { HashRouter } from 'react-router-dom';
 import { Provider } from 'react-redux';
 import ReactDOM from 'react-dom/client';
 import NotificationProvider from '@/components/Notifications/NotificationProvider';
@@ -12,9 +12,11 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   // <React.StrictMode>
   <Provider store={store}>
     <NotificationProvider>
-      <BrowserRouter>
+      {/* <BrowserRouter> */}
+      <HashRouter>
         <App />
-      </BrowserRouter>
+      </HashRouter>
+      {/* </BrowserRouter> */}
     </NotificationProvider>
   </Provider>
   // </React.StrictMode>
