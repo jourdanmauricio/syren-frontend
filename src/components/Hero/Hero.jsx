@@ -24,7 +24,7 @@ const Hero = () => {
           </p>
 
           <button>
-            <Link to="/new-appointment">Agendar cita</Link>
+            <Link to="/syren-frontend//new-appointment">Agendar cita</Link>
           </button>
         </div>
 

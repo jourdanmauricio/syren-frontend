@@ -21,7 +21,7 @@ const Process = () => {
           <p className={styles.card__content}>
             Agrenda una cita gratuita para tu consulta médica inicial.
             <button className={`btn ${styles.agendar__btn}`}>
-              <Link to="/new-appointment">Agendar cita</Link>
+              <Link to="/syren-frontend//new-appointment">Agendar cita</Link>
             </button>
           </p>
         </div>
