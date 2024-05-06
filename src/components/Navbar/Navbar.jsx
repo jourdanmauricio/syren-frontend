@@ -31,7 +31,7 @@ const Navbar = () => {
       ></div>
 
       <NavLink
-        to="/"
+        to="/syren-frontend/"
         className={styles.logo}
       >
         <img
