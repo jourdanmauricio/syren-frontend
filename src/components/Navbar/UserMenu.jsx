@@ -9,7 +9,7 @@ const UserMenu = ({ handleNavigate }) => {
   const handleLogout = () => {
     dispatch(setUserData(initialState.userData));
     dispatch(setUserAppointments(initialState.userAppointments));
-    handleNavigate('/');
+    handleNavigate('/syren-frontend/');
   };
   return (
     <div className={styles.dropdown__menu}>
