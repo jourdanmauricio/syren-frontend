@@ -48,12 +48,13 @@ const useNewAppointmentPage = () => {
     const { date, time } = data;
 
     try {
+      console.log('formErrors', valuesFormError);
       await scheduleAppointment({ date, time, userId });
       dispatchNotif({
         type: 'SUCCESS',
         message: 'Cita registrada',
       });
-      navigate('/my-appointments');
+      navigate('/syren-frontend/my-appointments');
     } catch (error) {
       setFormError(error);
     }

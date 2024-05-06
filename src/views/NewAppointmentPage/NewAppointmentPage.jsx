@@ -85,7 +85,12 @@ const NewAppointmentPage = () => {
               >
                 Volver
               </button>
-              <button className="btn">Agendar cita</button>
+              <button
+                type="submit"
+                className="btn"
+              >
+                Agendar cita
+              </button>
             </div>
           </form>
         </div>
