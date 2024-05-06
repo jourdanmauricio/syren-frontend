@@ -14,13 +14,13 @@ const UserMenu = ({ handleNavigate }) => {
   return (
     <div className={styles.dropdown__menu}>
       <button
-        onClick={() => handleNavigate('/profile')}
+        onClick={() => handleNavigate('/syren-frontend/profile')}
         className={styles.auth__btn}
       >
         Mi perfil
       </button>
       <button
-        onClick={() => handleNavigate('/my-appointments')}
+        onClick={() => handleNavigate('/syren-frontend/my-appointments')}
         className={styles.auth__btn}
       >
         Mis turnos

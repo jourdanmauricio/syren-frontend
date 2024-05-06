@@ -3,7 +3,7 @@ import { useSelector } from 'react-redux';
 const AuthRoute = (props) => {
   const isLogged = useSelector((state) => state.currentUser.userData.isLogged);
   if (!isLogged) {
-    return <Navigate to="/login" />;
+    return <Navigate to="/syren-frontend/login" />;
   }
   return props.children;
 };
@@ -13,7 +13,7 @@ const AuthRouteLogin = (props) => {
   if (isLogged) {
     return (
       <Navigate
-        to="/"
+        to="/syren-frontend/"
         replace
       />
     );

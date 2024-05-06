@@ -48,19 +48,19 @@ const Navbar = () => {
         style={{ right: showMenu ? '0' : '-100%' }}
       >
         <li className={styles.menu__item}>
-          <NavLink to="/">Home</NavLink>
+          <NavLink to="/syren-frontend/">Home</NavLink>
         </li>
         <li className={styles.menu__item}>
-          <NavLink to="/about">About</NavLink>
+          <NavLink to="/syren-frontend/about">About</NavLink>
         </li>
         <li className={styles.menu__item}>
-          <NavLink to="/treatments">Tratamientos</NavLink>
+          <NavLink to="/syren-frontend/treatments">Tratamientos</NavLink>
         </li>
         <li className={styles.menu__item}>
-          <NavLink to="/my-appointments">Mis turnos</NavLink>
+          <NavLink to="/syren-frontend/my-appointments">Mis turnos</NavLink>
         </li>
         <li className={styles.menu__item}>
-          <NavLink to="/contact">Contacto</NavLink>
+          <NavLink to="/syren-frontend/contact">Contacto</NavLink>
         </li>
       </ul>
       <UserNavbar />
