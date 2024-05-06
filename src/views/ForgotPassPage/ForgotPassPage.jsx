@@ -73,10 +73,10 @@ const ForgotPassPage = () => {
 
             <div className="form-links">
               <p>
-                <Link to="/register">Registrarme</Link>
+                <Link to="/syren-frontend/register">Registrarme</Link>
               </p>
               <p>
-                <Link to="/login">Iniciar sesión</Link>
+                <Link to="/syren-frontend/login">Iniciar sesión</Link>
               </p>
             </div>
 
