@@ -11,5 +11,5 @@ export default defineConfig({
       '@': path.resolve(__dirname, './src'),
     },
   },
-  base:'https://jourdanmauricio.github.io/syren-frontend/'
+  base: 'https://jourdanmauricio.github.io/syren-frontend/',
 });

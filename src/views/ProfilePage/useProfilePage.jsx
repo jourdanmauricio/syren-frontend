@@ -115,7 +115,7 @@ const useProfilePage = () => {
         message: 'Perfil Modificado',
       });
 
-      navigate('/syren-frontend/');
+      navigate('/');
     } catch (error) {
       setFormError(error);
     } finally {

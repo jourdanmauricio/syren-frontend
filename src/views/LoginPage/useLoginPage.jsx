@@ -56,7 +56,7 @@ const useLoginPage = () => {
         type: 'SUCCESS',
         message: 'Bienvenida!!',
       });
-      navigate('/syren-frontend/');
+      navigate('/');
     } catch (error) {
       setFormError(error);
     } finally {

@@ -177,7 +177,7 @@ const RegisterPage = () => {
             </div>
             <div className="form-links">
               <p>
-                <Link to="/syren-frontend/login">Iniciar sesión</Link>
+                <Link to="/login">Iniciar sesión</Link>
               </p>
             </div>
             <button

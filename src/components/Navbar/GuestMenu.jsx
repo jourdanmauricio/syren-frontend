@@ -3,13 +3,13 @@ const GuestMenu = ({ handleNavigate }) => {
   return (
     <div className={styles.dropdown__menu}>
       <button
-        onClick={() => handleNavigate('/syren-frontend/login')}
+        onClick={() => handleNavigate('/login')}
         className={styles.auth__btn}
       >
         Login
       </button>
       <button
-        onClick={() => handleNavigate('/syren-frontend/register')}
+        onClick={() => handleNavigate('/register')}
         className={styles.auth__btn}
       >
         Registro

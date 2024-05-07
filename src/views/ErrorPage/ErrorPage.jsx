@@ -14,7 +14,7 @@ const ErrorPage = () => {
         <p className={styles.paragraph}>¡UPS!</p>
         <p className={styles.paragraph}>PÁGINA NO ENCONTRADA</p>
         <button className={`btn ${styles.btn__home}`}>
-          <Link to="/syren-frontend/">Ir al inicio</Link>
+          <Link to="/">Ir al inicio</Link>
         </button>
       </section>
     </>

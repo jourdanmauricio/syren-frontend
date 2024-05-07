@@ -9,18 +9,18 @@ const UserMenu = ({ handleNavigate }) => {
   const handleLogout = () => {
     dispatch(setUserData(initialState.userData));
     dispatch(setUserAppointments(initialState.userAppointments));
-    handleNavigate('/syren-frontend/');
+    handleNavigate('/');
   };
   return (
     <div className={styles.dropdown__menu}>
       <button
-        onClick={() => handleNavigate('/syren-frontend/profile')}
+        onClick={() => handleNavigate('/profile')}
         className={styles.auth__btn}
       >
         Mi perfil
       </button>
       <button
-        onClick={() => handleNavigate('/syren-frontend/my-appointments')}
+        onClick={() => handleNavigate('/my-appointments')}
         className={styles.auth__btn}
       >
         Mis turnos

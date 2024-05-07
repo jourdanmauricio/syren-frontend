@@ -57,7 +57,7 @@ const ContactPage = () => {
               <strong>En breve nos pondremos en contacto.</strong>
             </p>
             <button className="btn">
-              <Link to="/syren-frontend/">Ir al inicio</Link>
+              <Link to="/">Ir al inicio</Link>
             </button>
           </>
         )}

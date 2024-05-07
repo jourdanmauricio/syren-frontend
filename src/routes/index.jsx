@@ -25,11 +25,11 @@ function AppRoutes() {
     <Suspense fallback={<Spinner />}>
       <Routes>
         <Route
-          path="/syren-frontend/"
+          path="/"
           element={<HomePage />}
         ></Route>
         <Route
-          path="/syren-frontend/my-appointments"
+          path="/my-appointments"
           element={
             <AuthRoute>
               <MyAppointmentsPage />
@@ -37,7 +37,7 @@ function AppRoutes() {
           }
         ></Route>
         <Route
-          path="/syren-frontend/new-appointment"
+          path="/new-appointment"
           element={
             <AuthRoute>
               <NewAppointmentPage />
@@ -45,11 +45,11 @@ function AppRoutes() {
           }
         ></Route>
         <Route
-          path="/syren-frontend/register"
+          path="/register"
           element={<RegisterPage />}
         ></Route>
         <Route
-          path="/syren-frontend/login"
+          path="/login"
           element={
             <AuthRouteLogin>
               <LoginPage />
@@ -57,7 +57,7 @@ function AppRoutes() {
           }
         ></Route>
         <Route
-          path="/syren-frontend/profile"
+          path="/profile"
           element={
             <AuthRoute>
               <ProfilePage />
@@ -65,7 +65,7 @@ function AppRoutes() {
           }
         ></Route>
         <Route
-          path="/syren-frontend/recovery-password"
+          path="/recovery-password"
           element={
             <AuthRouteLogin>
               <RecoveryPasswordPage />
@@ -73,7 +73,7 @@ function AppRoutes() {
           }
         ></Route>
         <Route
-          path="/syren-frontend/forgot-password"
+          path="/forgot-password"
           element={
             <AuthRouteLogin>
               <ForgotPassPage />
@@ -81,15 +81,15 @@ function AppRoutes() {
           }
         ></Route>
         <Route
-          path="/syren-frontend/about"
+          path="/about"
           element={<AboutPage />}
         ></Route>
         <Route
-          path="/syren-frontend/treatments"
+          path="/treatments"
           element={<TreatmentsPage />}
         ></Route>
         <Route
-          path="/syren-frontend/contact"
+          path="/contact"
           element={<ContactPage />}
         ></Route>
         <Route

@@ -54,7 +54,7 @@ const useNewAppointmentPage = () => {
         type: 'SUCCESS',
         message: 'Cita registrada',
       });
-      navigate('/syren-frontend/my-appointments');
+      navigate('/my-appointments');
     } catch (error) {
       setFormError(error);
     }

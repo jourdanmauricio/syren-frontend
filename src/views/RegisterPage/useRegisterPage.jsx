@@ -58,7 +58,7 @@ const useRegisterPage = () => {
         type: 'SUCCESS',
         message: 'Registro realizado con exito!',
       });
-      navigate('/syren-frontend/login');
+      navigate('/login');
     } catch (error) {
       setFormMsg(error);
     } finally {
